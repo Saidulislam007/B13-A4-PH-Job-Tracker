@@ -19,26 +19,55 @@
                 class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
                 <div class="card-body">
                     <p class="text-sm text-base-content/60">Total</p>
-                    <h2 id="totalCount" class="text-3xl font-bold">8</h2>
+                    <h2 id="totalCount" class="text-[#0B2F59] text-3xl font-bold">8</h2>
                 </div>
             </div>
 
             <div
-        class="card bg-base-100  transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-        <div class="card-body">
-          <p class="text-sm text-base-content/60">Interview</p>
-          <h2 id="interviewCount" class="text-[#0B2F59] text-3xl font-bold text-success">0</h2>
-        </div>
-      </div>
+                class="card bg-base-100  transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                <div class="card-body">
+                    <p class="text-sm text-base-content/60">Interview</p>
+                    <h2 id="interviewCount" class=" text-3xl font-bold text-success">0</h2>
+                </div>
+            </div>
 
             <div
-        class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-        <div class="card-body">
-          <p class="text-sm text-base-content/60">Rejected</p>
-          <h2 id="rejectedCount" class="text-3xl font-bold text-error">0</h2>
-        </div>
-      </div>
+                class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+                <div class="card-body">
+                    <p class="text-sm text-base-content/60">Rejected</p>
+                    <h2 id="rejectedCount" class="text-3xl font-bold text-error">0</h2>
+                </div>
+            </div>
         </section>
+
+
+        <div class="divider my-8"></div>
+
+        <!-- Available Jobs -->
+
+        <section class="p-4 md:p-6">
+            <div class="flex items-center justify-between gap-3">
+                <h1 class="text-[#0B2F59] text-lg md:text-xl font-bold">Available Jobs</h1>
+                <p class="text-sm text-base-content/60">
+                    <span id="jobsCountText">8 jobs</span>
+                </p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="mt-4">
+                <div class="">
+                    <button class="px-8 py-2 tab tab-active bg-base-100 rounded-lg hover:bg-blue-500  "
+                        data-tab="all">All</button>
+                    <button class="tab ml-3 py-2 rounded-lg hover:bg-blue-500  bg-base-100"
+                        data-tab="interview">Interview</button>
+                    <button class="tab py-2 rounded-lg hover:bg-blue-500  bg-base-100 ml-3 "
+                        data-tab="rejected">Rejected</button>
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
 
