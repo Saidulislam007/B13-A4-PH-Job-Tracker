@@ -11,10 +11,10 @@
 </head>
 
 <body class="bg-base-200">
-    <main>
-        <h1 class="">Job Application Tracker</h1>
+    <main class="max-w-6xl mx-auto px-4 py-6">
+        <h1 class="text-[#0B2F59] text-2xl md:text-3xl font-bold mb-5">Job Application Tracker</h1>
         <!-- Dashboard -->
-        <section>
+        <section class=" grid grid-cols-1 md:grid-cols-3 gap-4">
             <div
                 class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
                 <div class="card-body">
@@ -24,20 +24,20 @@
             </div>
 
             <div
-                class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-                <div class="card-body">
-                    <p class="text-sm text-base-content/60">Total</p>
-                    <h2 id="totalCount" class="text-3xl font-bold">8</h2>
-                </div>
-            </div>
+        class="card bg-base-100  transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+        <div class="card-body">
+          <p class="text-sm text-base-content/60">Interview</p>
+          <h2 id="interviewCount" class="text-[#0B2F59] text-3xl font-bold text-success">0</h2>
+        </div>
+      </div>
 
             <div
-                class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-                <div class="card-body">
-                    <p class="text-sm text-base-content/60">Total</p>
-                    <h2 id="totalCount" class="text-3xl font-bold">8</h2>
-                </div>
-            </div>
+        class="card bg-base-100 transform transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+        <div class="card-body">
+          <p class="text-sm text-base-content/60">Rejected</p>
+          <h2 id="rejectedCount" class="text-3xl font-bold text-error">0</h2>
+        </div>
+      </div>
         </section>
     </main>
 
